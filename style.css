@@ -4,6 +4,8 @@ body{
     background-image: url("../book3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
+    overflow-x: hidden;
 }
 
 nav{
@@ -13,7 +15,7 @@ nav{
     background-color: #5E503F;
     box-shadow:5px 5px 10px #966a38;
     position:sticky;
-    top: 0px;
+    top: 0;
     padding: 10px;
     flex-wrap: wrap;
 }
@@ -31,6 +33,9 @@ ul{
     list-style: none;
     display: flex;
     gap:20px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
 }
 
 a{
@@ -84,7 +89,7 @@ input,textarea{
 input:hover,
 textarea:hover{
     border-color: rgba(152, 88, 3, 0.608);
-    outline:none ;
+    outline:none;
 }
 
 label{
@@ -125,6 +130,7 @@ footer:hover{
     box-shadow:10px 10px 20px #966a38;
 }
 
+/* ===== 1050px ===== */
 @media (max-width: 1050px){
 
     .logo{
@@ -158,11 +164,8 @@ footer:hover{
     }
 }
 
+/* ===== 600px ===== */
 @media (max-width: 600px){
-
-    body{
-        background-attachment: scroll;
-    }
 
     nav{
         flex-direction: column;
@@ -209,6 +212,7 @@ footer:hover{
     }
 }
 
+/* ===== 300px ===== */
 @media (max-width: 300px){
 
     .logo{
@@ -247,4 +251,3 @@ footer:hover{
         width: 100%;
     }
 }
-
