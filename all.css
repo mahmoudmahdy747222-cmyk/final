@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-ground-color: #5E503F;
+    --color: #C6AC8F;
+    --main-shadow-color: #7f4412;
+    --main-nav-color: #402009;
+    --main-body-color: #E0E1DD;
+}
+
+body {
+    background-color:#C6AC8F;
+}
+
+
+/* PHRASE */
+.phrase {
+    color: #edb36c;
+    text-shadow: 2px 2px 4px #9f5b05;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 38px;
+    font-style: italic;
+}
+
+/* SEARCH */
+.searching {
+    display: block;
+    width: 80%;
+    height: 5vh;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* HEADERS */
+#fantasy-head,
+#psychology-head,
+#history-head,
+#best-seller-head {
+    background-color: var(--main-ground-color, black);
+    color: var(--color);
+    box-shadow: 0px 3px 4px 1px var(--main-shadow-color);
+    height: 30px;
+    padding-left: 10px;
+}
+
+/* GRID */
+.fantasy,
+.history,
+.psychology,
+.best-seller {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* كلهم جنب بعض */
+    padding: 20px;
+    gap: 15px;
+     /* background-color:#5E503F; */
+    /* background-color:ك */
+    color: aliceblue;
+    /* color: rgb(36, 35, 34);  */
+}
+
+/* BOOK CARD */
+.book-card {
+    height: 300px;
+    background-color:#5E503F
+    color: aliceblue;
+    color: rgb(36, 35, 34); 
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: -1px 4px 9px 3px var(--main-shadow-color);
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 0.4s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* IMAGE */
+.book-card img {
+    width: 100%;
+    height: 140px; /* مناسب داخل الكارت */
+    object-fit: cover;
+    border-radius: 6px;
+    /* background-color:#5E503F */
+}
+
+/* HOVER */
+.book-card:hover {
+    transform: scale(1.04);
+    background-color:#5E503F
+}
+
+/* TEXT */
+.photo-info {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.price {
+    color: #FFD700;
+    font-size: 13px;
+}
+
+.stock {
+    font-size: 12px;
+}
+
+/* RATING داخل الكارت */
+.rating {
+    color: gold;
+    font-size: 13px;
+    margin-top: 5px;
+}

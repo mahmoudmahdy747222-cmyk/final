@@ -1,0 +1,199 @@
+.us{
+    margin: 0;
+    background-color:black;
+    background-image: url("../final/book3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow-x: hidden;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5E503F;
+    box-shadow:5px 5px 10px #966a38;
+    position:sticky;
+    top: 0;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 50px;
+    color:#C6AC8F;
+    /* box-shadow: 5px 5px 10px #966a38; */
+}
+.logo:hover{
+    color:peru;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.nav{
+    text-decoration: none;
+    font-size: 25px;
+    color:#C6AC8F;
+    border-radius: 3px; 
+}
+.nav:hover{
+    color:peru;
+    border-bottom: solid 3px #EAE0D5;
+}
+
+.text{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px #966a38; 
+    transition:.5s ease;
+    color: rgb(76, 38, 4);
+}
+.text:hover{
+    width: 85%;
+    box-shadow:10px 10px 20px #966a38;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow:5px 5px 20px #966a38;
+    transition:.5s ease;
+}
+.form:hover{
+    width: 95%;
+    box-shadow:10px 10px 20px #966a38;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 20px;
+    border: solid 2px #5a3001 ;
+    border-radius: 30px;
+}
+input:hover,
+textarea:hover{
+    border-color: rgba(152, 88, 3, 0.608);
+    outline:none;
+}
+
+label{
+    color:#966a38;
+    font-size: 40px;
+}
+
+.ms{
+    color: #966a38;
+    background-color: #5E503F;
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: solid 2px #966a38;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.ms:hover{
+    background-color: #966a38;
+    color: aliceblue;
+    border-color: #C6AC8F;
+}
+.msg{
+    margin-top: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    font-size: 30px;
+}
+
+.msg.success{
+    color:aliceblue;
+}
+
+.msg.error{
+    color: red;
+}
+
+/* footer{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow:5px 5px 20px #966a38; 
+    text-align: center;
+    color: rgb(76, 38, 4);
+    transition:.5s ease;
+}
+footer:hover{
+    width: 85%;
+    box-shadow:10px 10px 20px #966a38;
+} */
+ /* Footer Style */
+
+hr {
+    border: none;
+    height: 2px;
+    background: #00bcd4;
+    margin: 30px 0 0 0;
+}
+footer {
+    background: #1e1e1e;
+    padding: 30px 15px;
+}
+
+/* Cards Container */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Card Style */
+.card {
+    background: #2c2c2c;
+    color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-8px) scale(1.03);
+    background: #3a3a3a;
+}
+
+/* Name */
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+/* ID */
+.id {
+    font-size: 20px;
+    color: #00bcd4;
+    letter-spacing: 1px;
+}
+

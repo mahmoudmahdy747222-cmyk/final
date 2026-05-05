@@ -1,0 +1,98 @@
+body{
+    background-color:#C6AC8F;
+    /* color: aliceblue; */
+    color: rgb(36, 35, 34); 
+    /* background-image: url("../final/book3.jpg");  */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    text-align: center;
+    font-size: 100px;
+}
+.Home{
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 50px;
+    border: #402404 2px solid;
+    border-radius: 30px;
+    box-shadow:5px 5px 10px #966a38;
+    transition:3s ease;;
+}
+.Home:hover{
+    width: 85%;
+    box-shadow:10px 10px 10px #966a38;
+}
+.Explore{
+    width: 20%;
+    border:#533a1f solid 5px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #a3835e;
+}
+.Explore:hover{
+    background-color: rgb(140, 81, 29);
+    border-color: #a3835e;
+    outline: none;
+}
+.one h2{
+    text-align: center;
+    font-size: 40px;
+}
+.one{
+    text-align: center; width: 85%;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    border: #402404 2px solid;
+    border-radius: 30px;
+    box-shadow:5px 5px 10px #966a38;
+    transition:3s ease;;
+}
+.one:hover{
+    width: 90%;
+    box-shadow:10px 10px 10px #966a38;
+}
+.two{
+    text-align: center;
+    font-size: 40px;
+}
+.three,.four,.five{
+    text-align: center;
+    width: 85%;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    border:2px solid brown;
+    border-radius: 30px;
+    box-shadow:5px 5px 10px #966a38;
+    transition:3s ease;
+
+}
+.three:hover{
+    width: 90%;
+    box-shadow:10px 10px 10px #966a38;
+}
+
+.four:hover{
+    width: 85%;
+    box-shadow:10px 10px 10px #966a38;
+}
+
+
+.five:hover{
+    width: 85%;
+    box-shadow:10px 10px 10px #966a38;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border: #533a1f solid 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #402404 ;
+}
+

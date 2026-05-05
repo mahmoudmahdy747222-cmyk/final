@@ -1,0 +1,120 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Book Fair Login</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav>
+            <div class="logo">Book Fair</div>
+                <ul>
+                    <li><a class="nav" href="home.html">Home</a></li>
+                    <li><a class="nav" href="login.html">Login</a></li>
+                    <li><a class="nav" href="all.html">All Books</a></li>
+                    <li><a class="nav" href="">Categorys</a></li>
+                    <li><a class="nav" href="events.html">Events</a></li>
+                    <li><a class="nav" href="discussion.html">Discussions</a></li>
+                    <li><a class="nav" href="index.html">Contuct Us</a></li>
+                </ul>
+        </nav>   
+        <div class="container">
+            <div class="side"></div>
+                <div class="forms">
+                    <div class="tabs">
+                    <button id="loginTab" class="active" onclick="showTab('login')">Login</button>
+                    <button id="registerTab" onclick="showTab('register')">Create Account</button>
+                </div>
+                <!-- Login -->
+                <div id="login" class="panel active">
+                    <h2>Welcome Back</h2>
+                    <input type="email" id="loginEmail" placeholder="Email">
+                    <input type="password" id="loginPassword" placeholder="Password">
+                    <button class="submit" onclick="login()">Login</button>
+                    <p>
+                        <a href="forgot-password.html">Forgot Password?</a>
+                    </p>
+                    <p id="loginMsg"></p>
+                </div>
+            <!-- Register -->
+                <div id="register" class="panel">
+                    <h2>Create Account</h2>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Username">
+                    <input type="password" id="password" placeholder="Password">
+                    <input type="password" id="confirm" placeholder="Confirm Password">
+                    <button class="submit" onclick="register()">Register</button>
+                    <p id="regMsg"></p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="cards">
+                <div class="card">
+                    <div class="name">Omar Alaa Mohamed</div>
+                    <div class="id">20240634</div>
+                    <div class="taskName">
+                        <p>
+                            Login page.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Mohamed Abdelkader Mohamed</div>
+                    <div class="id">20240852</div>
+                    <div class="taskName">
+                        <p>
+                            discussion page.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Omar Mohamed Refaa Ahmed</div>
+                    <div class="id">20250697</div>
+                    <div class="taskName">
+                        <P>
+                            All books page.
+                        </P>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Seif El-Din Abdelhamid Abdelhamid Ali</div>
+                    <div class="id">20250484</div>
+                    <div class="taskName">
+                        Home page.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Mohamed Mostafa Shawky</div>
+                    <div class="id">20250938</div>
+                    <div class="taskName">
+                        Events page.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Mahmoud Mahdy Amin</div>
+                    <div class="id">20250981</div>
+                    <div class="taskName">
+                        <p>
+                            Contact Us page and organize and edit all other pages.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Mostafa Abdelazim Tawfik</div>
+                    <div class="id">20251039</div>
+                    <div class="taskName">
+                        <p>
+                            catigores page.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+        <script src="login.js"></script>
+    </body>
+</html>

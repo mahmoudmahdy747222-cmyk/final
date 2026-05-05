@@ -1,0 +1,77 @@
+.events{
+    background-color:#C6AC8F;;
+    color: rgb(36, 35, 34); 
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #301d07;
+    box-shadow:5px 5px 10px #978a7b;
+    position:sticky;
+    top: 0px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 50px;
+    color:#C6AC8F;
+    /* box-shadow: 5px 5px 10px #966a38; */
+}
+.logo:hover{
+    color:peru;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#C6AC8F;
+    border-radius: 3px; 
+}
+a:hover{
+    color:peru;
+    border-bottom: solid 3px #EAE0D5;
+}
+.title{
+    text-align: center;
+    font-size: 70px;
+}
+.open,.sign,.caltural,.award{
+    width: 400px;
+    height: 400px;
+    border: #5E503F solid 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.opening,.signing,.show,.ceremony{
+    width: 90%;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 5px 5px 20px #966a38;
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.opening:hover,
+.signing:hover,
+.show:hover,
+.ceremony:hover{
+    box-shadow: 0 15px 35px rgba(150,106,56,0.6);
+    transform: translateY(-5px);
+}
+.paragraphe{
+    display: block;
+    margin: 20px;
+    font-size: 30px;
+}
+.sec1,.sec2,.sec3,.sec4{
+    display: flex;
+    justify-content: space-between;
+}

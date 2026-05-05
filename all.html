@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>All Books</title>
+        <link rel="stylesheet" href="all.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+                <div class="logo">Book Fair</div>
+                    <ul>
+                        <li><a class="nav" href="home.html">Home</a></li>
+                        <li><a class="nav" href="login.html">Login</a></li>
+                        <li><a class="nav" href="all.html">All Books</a></li>
+                        <li><a class="nav" href="">Categorys</a></li>
+                        <li><a class="nav" href="events.html">Events</a></li>
+                        <li><a class="nav" href="discussion.html">Discussions</a></li>
+                        <li><a class="nav" href="index.html">Contuct Us</a></li>
+                    </ul>
+                </nav>   
+        <!-- Phrase -->
+        <div class="phrase">Read Today, Lead Tomorrow</div>
+        <!-- Search -->
+        <div class="search-container">
+            <input type="text" placeholder="Find Your Book" class="searching" onkeyup="search()">
+        </div>
+        <!-- Fantasy -->
+        <div class="fantasy">
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/a-wizard-of-earthsea.jpg">
+                <p class="photo-info">a wizard of earthsea</p>
+                <p class="price">LE 432</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/gideon-the-ninth.jpg">
+                <p class="photo-info">gideon the ninth</p>
+                <p class="price">LE 500</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/jade-city.jpg">
+                <p class="photo-info">jade city</p>
+                <p class="price">LE 675</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/king-of-kings.jpg">
+                <p class="photo-info">king of kings</p>
+                <p class="price">LE 765</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/kings-and-sorcerers.webp">
+                <p class="photo-info">kings and sorcerers</p>
+                <p class="price">LE 200</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/north-in-the-night.jpg">
+                <p class="photo-info">north in the night</p>
+                <p class="price">LE 799</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/spinning-silver.jpg">
+                <p class="photo-info">spinning silver</p>
+                <p class="price">LE 354</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/the-name-of-the-wind.jpg">
+                <p class="photo-info">the name of the wind</p>
+                <p class="price">LE 876</p>
+                <p class="stock">out of stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/the-starless-sea.jpg">
+                <p class="photo-info">the starless sea</p>
+                <p class="price">LE 797</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/fantasy-photos/the-way-of-kings.jpg">
+                <p class="photo-info">the way of kings</p>
+                <p class="price">LE 654</p>
+                <p class="stock">out of stock</p>
+                <p class="rating">★ ★ ★ ★ ★</p>
+            </div>
+        </div>
+        <!-- History -->
+        <div class="history">
+            <div class="book-card">
+                <img src="css/images/history-photos/a-tale-of-two-cities.jpg">
+                <p class="photo-info">a tale of two cities</p>
+                <p class="price">LE 390</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/history-photos/all-the-light-we-cannot-see.jpg">
+                <p class="photo-info">all the light we cannot see</p>
+                <p class="price">LE 345</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/history-photos/memoires-of-geisha.jpg">
+                <p class="photo-info">memoires of geisha</p>
+                <p class="price">LE 543</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/history-photos/the-book-thief.jpg">
+                <p class="photo-info">the book thief</p>
+                <p class="price">LE 100</p>
+                <p class="stock">out of stock</p>
+                <p class="rating">★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/history-photos/the-herror.jpg">
+                <p class="photo-info">the herror</p>
+                <p class="price">LE 867</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+        </div>
+        <!-- Psychology -->
+        <div class="psychology">
+            <div class="book-card">
+                <img src="css/images/psychology-photos/emotional-intelligence.jpg">
+                <p class="photo-info">emotional intelligence</p>
+                <p class="price">LE 390</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/psychology-photos/Man-and-His-Symbols.jpg">
+                <p class="photo-info">Man and His Symbols</p>
+                <p class="price">LE 345</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★</p>
+            </div>
+            <div class="book-card">
+                <img src="css/images/psychology-photos/Mans-Search-for-Meaning.jpg">
+                <p class="photo-info">Mans Search for Meaning</p>
+                <p class="price">LE 543</p>
+                <p class="stock">in stock</p>
+                <p class="rating">★ ★ ★ ★ ★</p>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="cards">
+                <div class="card">
+                    <div class="name">Omar Alaa Mohamed</div>
+                    <div class="id">20240634</div>
+                    <div class="taskName">
+                        <p>
+                            Login page.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Mohamed Abdelkader Mohamed</div>
+                    <div class="id">20240852</div>
+                    <div class="taskName">
+                        <p>
+                            discussion page.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Omar Mohamed Refaa Ahmed</div>
+                    <div class="id">20250697</div>
+                    <div class="taskName">
+                        <P>
+                            All books page.
+                        </P>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Seif El-Din Abdelhamid Abdelhamid Ali</div>
+                    <div class="id">20250484</div>
+                    <div class="taskName">
+                        Home page.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Mohamed Mostafa Shawky</div>
+                    <div class="id">20250938</div>
+                    <div class="taskName">
+                        Events page.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Mahmoud Mahdy Amin</div>
+                    <div class="id">20250981</div>
+                    <div class="taskName">
+                        <p>
+                            Contact Us page and organize and edit all other pages.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="name">Mostafa Abdelazim Tawfik</div>
+                    <div class="id">20251039</div>
+                    <div class="taskName">
+                        <p>
+                            catigores page.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
