@@ -16,8 +16,6 @@ body {
     background-color:#C6AC8F;
 }
 
-
-/* PHRASE */
 .phrase {
     color: #edb36c;
     text-shadow: 2px 2px 4px #9f5b05;
@@ -27,8 +25,6 @@ body {
     font-size: 38px;
     font-style: italic;
 }
-
-/* SEARCH */
 .searching {
     display: block;
     width: 80%;
@@ -51,13 +47,10 @@ body {
     padding-left: 10px;
 }
 
-/* GRID */
-.fantasy,
-.history,
-.psychology,
-.best-seller {
+
+.fantasy,.history,.psychology,.best-seller {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* كلهم جنب بعض */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
     padding: 20px;
     gap: 15px;
      /* background-color:#5E503F; */
@@ -65,8 +58,6 @@ body {
     color: aliceblue;
     /* color: rgb(36, 35, 34);  */
 }
-
-/* BOOK CARD */
 .book-card {
     height: 300px;
     background-color:#5E503F
@@ -85,22 +76,19 @@ body {
     justify-content: space-between;
 }
 
-/* IMAGE */
 .book-card img {
     width: 100%;
-    height: 140px; /* مناسب داخل الكارت */
+    height: 140px; 
     object-fit: cover;
     border-radius: 6px;
-    /* background-color:#5E503F */
+    background-color:#5E503F;;
 }
 
-/* HOVER */
 .book-card:hover {
     transform: scale(1.04);
     background-color:#5E503F
 }
 
-/* TEXT */
 .photo-info {
     margin: 5px 0;
     font-size: 14px;
@@ -115,9 +103,44 @@ body {
     font-size: 12px;
 }
 
-/* RATING داخل الكارت */
 .rating {
     color: gold;
     font-size: 13px;
     margin-top: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    width: 99%;
+    height: 20vh; 
+    background-color: var(--main-nav-color);
+    margin-right: 20px;
+}
+i{
+    color: gold;
+    padding: 7px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+}
+.contact-us-footer{
+    color: #E0E1DD;
+}
+.social-media a{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    transition-duration: .5s;
+    transition-delay: .2s;
+}
+.social-media a:hover {
+    border: 2px solid #607D8B;
+    background-color: rgb(0 0 0);
+    color: rgb(255 255 255);
 }
