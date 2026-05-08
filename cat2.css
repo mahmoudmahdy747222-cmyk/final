@@ -1,0 +1,27 @@
+
+
+
+
+.li{
+background-color: brown;
+color: aliceblue;
+border: 30px;
+font-size: 20px;
+font-weight: 400px;
+border-radius: 20px;
+box-shadow: 0px 4px 15px;
+padding: 10px;
+text-align: center;
+width: 20%;
+margin: auto;
+background-position: left;
+}
+
+.ö{
+text-decoration: none;
+text-decoration-style: none;
+color: aliceblue;
+}
+.li:hover{
+    background-color: blue;
+}
